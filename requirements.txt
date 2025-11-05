@@ -1,1 +1,26 @@
-langchain>=0.2.0\nopenai>=1.40.0\ngradi>=4.29.0\nchromadb>=0.5.0
+# === Core AI / LLM Packages ===
+openai==1.40.2
+tiktoken==0.7.0
+langchain==0.2.14
+langchain-core==0.2.36
+langchain-community==0.2.11
+langchain-openai==0.1.22
+langchain-text-splitters==0.2.2
+
+# === Vector Store (Chroma) ===
+chromadb==0.5.4
+pysqlite3-binary==0.5.3
+
+# === Web UI ===
+gradio==4.29.0
+fastapi==0.110.1
+uvicorn==0.29.0
+huggingface-hub==0.24.5   # fixes HfFolder import issue
+
+# === PDF / Document Processing ===
+pypdf==4.3.1
+
+# === Utility Libraries ===
+numpy>=1.24.0
+pandas>=2.0.0
+pathlib
